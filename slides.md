@@ -25,25 +25,6 @@ footer {
   font-size: 0.8rem;
   color: #777;
 }
-
-/* Background image slide */
-.bg-slide {
-  background-image: url('https://source.unsplash.com/1600x900/?technology');
-  background-size: cover;
-  color: white;
-  text-shadow: 1px 1px 4px black;
-}
-</style>
-
-<!-- Custom Theme Registration -->
-<style>
-@import 'https://unpkg.com/@marp-team/marp-core/themes/default.css';
-
-:root {
-  --primary-color: #1e88e5;
-  --accent-color: #1565c0;
-  --text-color: #333;
-}
 </style>
 
 # Product Documentation Presentation  
@@ -62,9 +43,9 @@ footer {
 
 ---
 
-## Algorithmic Complexity Example (Math)
+## Algorithmic Complexity Example
 
-Using Marp's KaTeX support:
+Using Marp's KaTeX math:
 
 \[
 T(n) = 4T\left(\frac{n}{2}\right) + n^2
@@ -78,9 +59,11 @@ T(n) = \Theta(n^2)
 
 ---
 
-## Slide with Background Image
+<!--
+_background: "https://source.unsplash.com/1600x900/?technology,software"
+_class: lead
+-->
 
-<!-- _class: bg-slide -->
 # Documentation Pipeline  
 ### Git → Markdown → Marp → Outputs
 
@@ -88,17 +71,16 @@ T(n) = \Theta(n^2)
 
 ## Key Features in This Documentation
 
-- Custom theme  
-- Page numbers  
-- Background image  
-- Math support  
-- Modular Markdown structure  
-- Version-controlled for CI/CD  
+- Custom theme ✔  
+- Page numbers ✔  
+- Background image (valid Marp directive) ✔  
+- Math support ✔  
+- Modular, clean Markdown ✔  
+- Ready for CI/CD ✔  
 
 ---
 
-## Thank You
+## Contact
 
-For issues or contributions:
-
-**Email:** 24f2006582@ds.study.iitm.ac.in  
+For contributions or queries:  
+**Email:** 24f2006582@ds.study.iitm.ac.in
