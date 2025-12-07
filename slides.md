@@ -1,9 +1,8 @@
 ---
 marp: true
 paginate: true
-headingDivider: 2
 theme: custom-theme
-class: lead
+headingDivider: 2
 ---
 
 <!-- Custom Theme -->
@@ -11,41 +10,35 @@ class: lead
 section {
   font-family: "Segoe UI", sans-serif;
 }
-
 section h1 {
   color: #1e88e5;
 }
-
 section p {
   font-size: 1.1rem;
 }
-
-/* Page number styling */
 footer {
   font-size: 0.8rem;
   color: #777;
 }
 </style>
 
-# Product Documentation Presentation  
-### **Technical Writer: 24f2006582@ds.study.iitm.ac.in**
+# Product Documentation Presentation
+### Technical Writer: **24f2006582@ds.study.iitm.ac.in**
 
 ---
 
 ## Overview
 
 - Version-controlled documentation  
-- Easily exportable (PDF, PPTX, HTML)  
-- Marp-based workflow  
-- Theming + custom styles  
+- Exportable to PDF / PPTX / HTML  
+- Custom themes  
 - Background imagery  
 - Math support  
+- CI/CD compatible  
 
 ---
 
 ## Algorithmic Complexity Example
-
-Using Marp's KaTeX math:
 
 \[
 T(n) = 4T\left(\frac{n}{2}\right) + n^2
@@ -60,27 +53,26 @@ T(n) = \Theta(n^2)
 ---
 
 <!--
-_background: "https://source.unsplash.com/1600x900/?technology,software"
+_background: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Fronalpstock_big.jpg"
 _class: lead
 -->
 
-# Documentation Pipeline  
+# Documentation Pipeline
 ### Git → Markdown → Marp → Outputs
 
 ---
 
-## Key Features in This Documentation
+## Key Features
 
 - Custom theme ✔  
 - Page numbers ✔  
-- Background image (valid Marp directive) ✔  
+- **Background image (valid Marp directive)** ✔  
 - Math support ✔  
-- Modular, clean Markdown ✔  
-- Ready for CI/CD ✔  
+- Version-controlled ✔  
 
 ---
 
 ## Contact
 
-For contributions or queries:  
+For issues or contributions:  
 **Email:** 24f2006582@ds.study.iitm.ac.in
